@@ -21,10 +21,13 @@ order by AVG(tracks.time);
 
 /* Задача 4 */
 
-select artists.name from artists
-left join album_artists on artists.id = album_artists.id_artist
-left join  albums on albums.id = album_artists.id_album
-where albums.date_created  NOT BETWEEN '2018-01-01' AND '2018-12-31';
+select a.name
+from artists as a
+left join album_artists as aa on a.id = aa.id_artist
+left join albums as al on (al.id = aa.id_album)
+group by a.name, a.id
+having count(case when al.date_created = 2020 then a.id end)=0
+order by a.name
 
 /* Задача 5 */
 
@@ -57,18 +60,30 @@ having count(id_collection) < 1;
 
 /* Задача 8 */
 
-select artists.name, min(time) from artists
-left join album_artists on artists.id = album_artists.id_artist
-left join albums on album_artists.id_album = id_album
-left join tracks on  albums.id = tracks.id_album
-group by artists.name
-order by min(time)
-limit 5;
+select a.name, t.time
+from tracks as t
+left join albums as al on al.id = t.id_album
+left join album_artists as aa on aa.id_album = al.id
+left join artists as a on a.id = aa.id_artist
+group by a.name, t.time
+having t.time = (select min(time) from tracks)
+order by a.name;
 
 /* Задача 9 */
 
-select albums.name, count(albums.name) from albums
-left join tracks on albums.id = tracks.id_album
-group by albums.name
-order by count(albums.name)
-limit 5;
+select distinct a.name
+from albums as a
+left join tracks as t on t.id_album = a.id
+where t.id_album in (
+    select id_album
+    from tracks
+    group by id_album
+    having count(id) = (
+        select count(id)
+        from tracks
+        group by id_album
+        order by count
+        limit 1
+    )
+)
+order by a.name
