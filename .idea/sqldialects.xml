@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/2.2 sql/music_app.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/2.3_SQL/INSERT.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/2.3_SQL/SELECT.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/2.4_SQL_PRO/SELECT.sql" dialect="GenericSQL" />
+  </component>
+</project>
