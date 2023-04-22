@@ -1,19 +1,26 @@
-{% extends "base.html" %}
-{% load static %}
+{% extends 'base.html' %}
 
-{% block title %}Каталог{% endblock %}
 {% block content %}
-    <div class="container">
-        <div class="header">
-            <h1><a href="/catalog">Каталог</a></h1>
-        </div>
-
-        <div class="sort-block">
-            {# Здесь должен быть раздел с сортировкой #}
-        </div>
-
-        <div class="content">
-            {# Здесь должен отображаться каталог с телефонами #}
-        </div>
+<h1>Catalog</h1>
+<form method="get">
+    <label for="sort">Sort by:</label>
+    <select name="sort" id="sort">
+        <option value="">---</option>
+        <option value="name" {% if request.GET.sort == 'name' %}selected{% endif %}>Name</option>
+        <option value="min_price" {% if request.GET.sort == 'min_price' %}selected{% endif %}>Price (low to high)</option>
+        <option value="max_price" {% if request.GET.sort == 'max_price' %}selected{% endif %}>Price (high to low)</option>
+    </select>
+    <button type="submit">Sort</button>
+</form>
+{% for phone in phones %}
+    <div class="phone">
+        <a href="{% url 'phone_details' slug=phone.slug %}">
+            <img src="{{ phone.image.url }}" alt="{{ phone.name }}">
+            <h2>{{ phone.name }}</h2>
+            <p>{{ phone.price }}</p>
+        </a>
     </div>
+{% empty %}
+    <p>No phones available.</p>
+{% endfor %}
 {% endblock %}

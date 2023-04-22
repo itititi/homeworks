@@ -1,14 +1,9 @@
-{% extends "base.html" %}
-{% load static %}
+{% extends 'base.html' %}
 
-{% block title %}Телефон{% endblock %}
 {% block content %}
-    <div class="container">
-        <div class="header">
-            <h1>Телефон</h1>
-        </div>
-        <div class="content">
-
-        </div>
-    </div>
+<h1>{{ phone.name }}</h1>
+<img src="{{ phone.image.url }}" alt="{{ phone.name }}">
+<p>Price: {{ phone.price }}</p>
+<p>Release date: {{ phone.release_date }}</p>
+<p>LTE exists: {% if phone.lte_exists %}Yes{% else %}No{% endif %}</p>
 {% endblock %}
