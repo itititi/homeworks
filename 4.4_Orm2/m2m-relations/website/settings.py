@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'articles.apps.ArticlesConfig'
+    #'articles.apps.ArticlesConfig',
+    'articles'
 ]
 
 MIDDLEWARE = [
@@ -75,6 +76,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'netology_m2m_relations',
+        'USER': 'ramp',
+        'PASSWORD': '148800',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }

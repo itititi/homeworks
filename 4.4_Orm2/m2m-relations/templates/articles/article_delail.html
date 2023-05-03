@@ -1,0 +1,11 @@
+{% extends 'articles/base.html' %}
+
+{% block content %}
+  <h1>{{ article.title }}</h1>
+  <p>{{ article.content }}</p>
+  <ul>
+    {% for section in article.sections.all %}
+      <li{% if section.articlesection_set.filter(is_main=True).exists %} class="main-section"{% endif %}>{{ section.name }}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
