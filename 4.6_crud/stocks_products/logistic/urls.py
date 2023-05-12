@@ -1,9 +1,9 @@
-from rest_framework.routers import DefaultRouter
+from django.urls import path
+from .views import ProductAPIView, ProductDetailAPIView, StockAPIView, StockDetailAPIView
 
-from .views import ProductViewSet, StockViewSet
-
-router = DefaultRouter()
-router.register('products', ProductViewSet)
-router.register('stocks', StockViewSet)
-
-urlpatterns = router.urls
+urlpatterns = [
+    path('products/', ProductAPIView.as_view(), name='product-list'),
+    path('products/<int:pk>/', ProductDetailAPIView.as_view(), name='product-detail'),
+    path('stocks/', StockAPIView.as_view(), name='stock-list'),
+    path('stocks/<int:pk>/', StockDetailAPIView.as_view(), name='stock-detail'),
+]
