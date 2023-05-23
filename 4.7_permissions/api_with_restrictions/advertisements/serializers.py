@@ -40,6 +40,11 @@ class AdvertisementSerializer(serializers.ModelSerializer):
     def validate(self, data):
         """Метод для валидации. Вызывается при создании и обновлении."""
 
-        # TODO: добавьте требуемую валидацию
-
+        if self.instance is None:
+            user_profile = self.context['request'].user.userprofile
+            if user_profile.open_ads_count >= 10:
+                raise serializers.ValidationError('Max number of open ads reached.')
+        if 'status' in data and self.instance is not None and self.instance.status == 'CLOSED' and data[
+            'status'] == 'OPEN':
+            raise serializers.ValidationError('Cannot reopen a closed ad.')
         return data
