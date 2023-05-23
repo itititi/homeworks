@@ -21,7 +21,7 @@ from rest_framework.routers import DefaultRouter
 from advertisements.views import AdvertisementViewSet
 
 router = DefaultRouter()
-router.register(r'ads', AdvertisementViewSet)
+router.register('ads', AdvertisementViewSet)
 
 
 urlpatterns = [
