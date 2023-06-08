@@ -12,7 +12,7 @@ class AdvertisementViewSet(ModelViewSet):
     """ViewSet для объявлений."""
     queryset = Advertisement.objects.all()
     serializer_class = AdvertisementSerializer
-    #filter_backends = (DjangoFilterBackend, filters.AdvertisementFilter)
+    filter_backends = (DjangoFilterBackend, filters.AdvertisementFilter)
     filterset_fields = ('status', 'created_at', 'updated_at')
     ordering_fields = ('created_at', 'updated_at')
     ordering = ('-created_at',)

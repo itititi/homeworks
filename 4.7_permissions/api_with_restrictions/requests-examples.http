@@ -9,7 +9,7 @@ Content-Type: application/json
 ###
 
 # создание объявления
-POST {{baseUrl}}/advertisements/
+POST https://localhost:8000/api/advertisements/
 Content-Type: application/json
 Authorization: Token 902ef055a9ac93f18327f1f9c45ab059f1a62c7d
 
