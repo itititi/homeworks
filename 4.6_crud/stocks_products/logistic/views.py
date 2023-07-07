@@ -37,6 +37,7 @@ class StockDetailAPIView(generics.RetrieveUpdateDestroyAPIView):
         context = super().get_serializer_context()
         context['product_qs'] = ProductAPIView()
 
+
 def perform_destroy(self, instance):
     instance.positions_set.all().delete()
     instance.delete()
