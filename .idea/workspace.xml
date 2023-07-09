@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b826f6dc-b00c-403c-8780-7417af621845" name="Changes" comment="new dz">
-      <change afterPath="$PROJECT_DIR$/3.4_Iter/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.4_Iter/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.4_Iter/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.4_Iter/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.6_Tests/1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.6_crud/stocks_products/logistic/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/4.6_crud/stocks_products/logistic/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.6_crud/stocks_products/stocks_products/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/4.6_crud/stocks_products/stocks_products/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,14 +88,14 @@
       <recent name="$PROJECT_DIR$/1.2/files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.4">
+  <component name="RunManager" selected="Python tests.Python tests in 1.py">
     <configuration name="music_app.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/2.2 sql/music_app.sql" />
       <script-mode>FILE</script-mode>
       <data-source id="61ec1534-c828-4ecb-b4e3-5855718615af" />
       <method v="2" />
     </configuration>
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,12 +103,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.4_Iter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.5_Decorators" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.4_Iter/1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.5_Decorators/1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,12 +125,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.4_Iter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.5_Decorators" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.4_Iter/2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.5_Decorators/2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,57 +161,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for 1.test_sum_of_digits" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.1_Imports" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.6_Tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.1_Imports/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;1.test_sum_of_digits&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in 1.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2.6_sqlAl" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.6_Tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.6_sqlAl/models.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/3.6_Tests/1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in 1.py" />
+        <item itemvalue="Python tests.Python tests for 1.test_sum_of_digits" />
+        <item itemvalue="Python.2 (1)" />
+        <item itemvalue="Python.1 (1)" />
         <item itemvalue="Python.4" />
-        <item itemvalue="Python.2" />
-        <item itemvalue="Python.1" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.models" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +242,8 @@
       <workItem from="1685356113026" duration="613000" />
       <workItem from="1685376334238" duration="1293000" />
       <workItem from="1688384065085" duration="93000" />
-      <workItem from="1688736575014" duration="944000" />
+      <workItem from="1688736575014" duration="1829000" />
+      <workItem from="1688926541502" duration="708000" />
     </task>
     <task id="LOCAL-00001" summary="new dz">
       <created>1673266753839</created>
@@ -438,7 +420,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684924937475</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="new dz">
+      <created>1688737796029</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1688737796029</updated>
+    </task>
+    <task id="LOCAL-00027" summary="new dz">
+      <created>1688927003670</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1688927003670</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,9 +459,12 @@
     <SUITE FILE_PATH="coverage/homeworks$1.coverage" NAME="1 Coverage Results" MODIFIED="1688737104246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.4_Iter" />
     <SUITE FILE_PATH="coverage/homeworks$1_2dz.coverage" NAME="1-2dz Coverage Results" MODIFIED="1673471535194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.3_requests" />
     <SUITE FILE_PATH="coverage/homeworks$2.coverage" NAME="2 Coverage Results" MODIFIED="1688737237451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.4_Iter" />
+    <SUITE FILE_PATH="coverage/homeworks$4.coverage" NAME="4 Coverage Results" MODIFIED="1688737745221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.4_Iter" />
     <SUITE FILE_PATH="coverage/homeworks$models.coverage" NAME="models Coverage Results" MODIFIED="1675081138451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.6_sqlAl" />
     <SUITE FILE_PATH="coverage/homeworks$1_2.coverage" NAME="1-2 Coverage Results" MODIFIED="1673472264441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.3_requests" />
     <SUITE FILE_PATH="coverage/homeworks$main.coverage" NAME="main Coverage Results" MODIFIED="1684844562190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.1_Imports" />
+    <SUITE FILE_PATH="coverage/homeworks$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1688926955222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.5_Decorators" />
+    <SUITE FILE_PATH="coverage/homeworks$2__1_.coverage" NAME="2 (1) Coverage Results" MODIFIED="1688926972003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.5_Decorators" />
     <SUITE FILE_PATH="coverage/homeworks$dz1_3.coverage" NAME="dz1-3 Coverage Results" MODIFIED="1673275069431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.2" />
   </component>
 </project>
