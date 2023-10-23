@@ -1,3 +1,4 @@
+import os
 from datetime import datetime
 
 from django.http import HttpResponse
@@ -34,4 +35,7 @@ def workdir_view(request):
     # по аналогии с `time_view`, напишите код,
     # который возвращает список файлов в рабочей 
     # директории
-    raise NotImplemented
+    current_dir = os.getcwd()
+    files = os.listdir(current_dir)
+    file_names = '\n'.join(files)
+    return HttpResponse(file_names)
