@@ -34,8 +34,9 @@ class AdvertisementSerializer(serializers.ModelSerializer):
         # обратите внимание на `context` – он выставляется автоматически
         # через методы ViewSet.
         # само поле при этом объявляется как `read_only=True`
-        validated_data["creator"] = self.context["request"].user
-        return super().create(validated_data)
+        user = self.context['request'].user
+        ad = Advertisement.objects.create(author=user, **validated_data)
+        return ad
 
     def validate(self, data):
         """Метод для валидации. Вызывается при создании и обновлении."""
