@@ -1,26 +1,47 @@
-import sqlite3
+from sqlalchemy import Column, Integer, String, BigInteger, ForeignKey, DateTime
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker, declarative_base
+
+Base = declarative_base()
+
+engine = create_engine('sqlite:///star_wars.db')
+
+Session = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+class Person(Base):
+    __tablename__ = 'person'
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    name = Column(String)
+    birth_year = Column(String, unique=True)
+    eye_color = Column(BigInteger)
+    gender = Column(String)
+    hair_color = Column(String)
+    height = Column(Integer)
+    homeworld = Column(String)
+    mass = Column(Integer)
+    skin_color = Column(String)
+
+class Film(Base):
+    __tablename__ = 'film'
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    film_id = Column(Integer)
+    person_id = Column(Integer, ForeignKey(Person.id))
 
 
-def create_database():
-    conn = sqlite3.connect('star_wars.db')
-    cursor = conn.cursor()
-    cursor.execute("""
-        CREATE TABLE IF NOT EXISTS characters (
-            id INTEGER PRIMARY KEY,
-            birth_year TEXT,
-            eye_color TEXT,
-            films TEXT,
-            gender TEXT,
-            hair_color TEXT,
-            height INTEGER,
-            homeworld TEXT,
-            mass INTEGER,
-            name TEXT UNIQUE,
-            skin_color TEXT,            
-            species TEXT,            
-            starships  text , 
-            vehicles   text 
-            )
-        """)
+class Species(Base):
+    __tablename__ = 'species'
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    specie_id = Column(Integer)
+    person_id = Column(Integer, ForeignKey(Person.id))
+class Starships(Base):
+    __tablename__ = 'starships'
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    starship_id = Column(Integer)
+    person_id = Column(Integer, ForeignKey(Person.id))
 
-create_database()
+class Vehicles(Base):
+    __tablename__ = 'vehicles'
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    vehicles_id = Column(Integer)
+    person_id = Column(Integer, ForeignKey(Person.id))
+
+Base.metadata.create_all(bind=engine)
