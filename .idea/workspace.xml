@@ -5,8 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b826f6dc-b00c-403c-8780-7417af621845" name="Changes" comment="new dz">
-      <change afterPath="$PROJECT_DIR$/3.6_Tests/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/1/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/2/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/2/logistic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/2/logistic/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/2/logistic/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/2/logistic/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/2/logistic/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/2/logistic/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/2/logistic/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/2/logistic/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/2/logistic/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/2/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/2/netology_stocks_products" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/2/requests-examples.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/2/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/2/stocks_products/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/2/stocks_products/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/2/stocks_products/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/2/stocks_products/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1_docker/2/stocks_products/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.3_asyncio/load_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.3_asyncio/migration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.4_aiohttp/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.4_aiohttp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.4_aiohttp/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.4_aiohttp/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.4_aiohttp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.6_crud/stocks_products/stocks_products/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/4.6_crud/stocks_products/stocks_products/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.2_flask/api/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/5.2_flask/api/api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +46,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -40,6 +70,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2K5WAh8GeWFnMoXMJ3pIHrSZFLt" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,37 +82,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/roman/Desktop/Документы/drf_test&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PythonContentEntriesConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/roman/Desktop/homeworks/5.1_docker/2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;,
-      &quot;sqlite&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql",
+      "sqlite"
     ],
-    &quot;RunConfigurationTargetLRU&quot;: [
-      &quot;61ec1534-c828-4ecb-b4e3-5855718615af&quot;
+    "RunConfigurationTargetLRU": [
+      "61ec1534-c828-4ecb-b4e3-5855718615af"
     ],
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
-      &quot;PostgreSQL&quot;
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "PostgreSQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\roman\Desktop\homeworks\5.1_docker\2" />
       <recent name="$PROJECT_DIR$/2.4" />
       <recent name="$PROJECT_DIR$/2.3_SQL" />
     </key>
@@ -88,14 +125,14 @@
       <recent name="$PROJECT_DIR$/1.2/files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in 1.py">
+  <component name="RunManager" selected="Python.main">
     <configuration name="music_app.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/2.2 sql/music_app.sql" />
       <script-mode>FILE</script-mode>
       <data-source id="61ec1534-c828-4ecb-b4e3-5855718615af" />
       <method v="2" />
     </configuration>
-    <configuration name="1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="load_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,12 +140,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.5_Decorators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5.3_asyncio" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.5_Decorators/1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.3_asyncio/load_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +154,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,12 +162,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.5_Decorators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5.4_aiohttp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.5_Decorators/2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.4_aiohttp/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +176,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="migration" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,12 +184,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.4_Iter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5.3_asyncio" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.4_Iter/4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.3_asyncio/migration.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.load_data" />
+        <item itemvalue="Python.migration" />
         <item itemvalue="Python tests.Python tests in 1.py" />
         <item itemvalue="Python tests.Python tests for 1.test_sum_of_digits" />
-        <item itemvalue="Python.2 (1)" />
-        <item itemvalue="Python.1 (1)" />
-        <item itemvalue="Python.4" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +280,9 @@
       <workItem from="1685376334238" duration="1293000" />
       <workItem from="1688384065085" duration="93000" />
       <workItem from="1688736575014" duration="1829000" />
-      <workItem from="1688926541502" duration="708000" />
+      <workItem from="1688926541502" duration="1593000" />
+      <workItem from="1698055943831" duration="15565000" />
+      <workItem from="1698077139395" duration="2157000" />
     </task>
     <task id="LOCAL-00001" summary="new dz">
       <created>1673266753839</created>
@@ -434,7 +473,30 @@
       <option name="project" value="LOCAL" />
       <updated>1688927003670</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="new dz">
+      <created>1688927535245</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1688927535245</updated>
+    </task>
+    <task id="LOCAL-00029" summary="new dz">
+      <option name="closed" value="true" />
+      <created>1698056119538</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1698056119538</updated>
+    </task>
+    <task id="LOCAL-00030" summary="new dz">
+      <option name="closed" value="true" />
+      <created>1698057590402</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1698057590402</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,15 +518,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="new dz" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/homeworks$1.coverage" NAME="1 Coverage Results" MODIFIED="1688737104246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.4_Iter" />
-    <SUITE FILE_PATH="coverage/homeworks$1_2dz.coverage" NAME="1-2dz Coverage Results" MODIFIED="1673471535194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.3_requests" />
-    <SUITE FILE_PATH="coverage/homeworks$2.coverage" NAME="2 Coverage Results" MODIFIED="1688737237451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.4_Iter" />
     <SUITE FILE_PATH="coverage/homeworks$4.coverage" NAME="4 Coverage Results" MODIFIED="1688737745221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.4_Iter" />
-    <SUITE FILE_PATH="coverage/homeworks$models.coverage" NAME="models Coverage Results" MODIFIED="1675081138451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.6_sqlAl" />
     <SUITE FILE_PATH="coverage/homeworks$1_2.coverage" NAME="1-2 Coverage Results" MODIFIED="1673472264441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.3_requests" />
-    <SUITE FILE_PATH="coverage/homeworks$main.coverage" NAME="main Coverage Results" MODIFIED="1684844562190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.1_Imports" />
-    <SUITE FILE_PATH="coverage/homeworks$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1688926955222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.5_Decorators" />
-    <SUITE FILE_PATH="coverage/homeworks$2__1_.coverage" NAME="2 (1) Coverage Results" MODIFIED="1688926972003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.5_Decorators" />
+    <SUITE FILE_PATH="coverage/homeworks$models.coverage" NAME="models Coverage Results" MODIFIED="1675081138451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.6_sqlAl" />
+    <SUITE FILE_PATH="coverage/homeworks$1_2dz.coverage" NAME="1-2dz Coverage Results" MODIFIED="1673471535194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.3_requests" />
     <SUITE FILE_PATH="coverage/homeworks$dz1_3.coverage" NAME="dz1-3 Coverage Results" MODIFIED="1673275069431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.2" />
+    <SUITE FILE_PATH="coverage/homeworks$2__1_.coverage" NAME="2 (1) Coverage Results" MODIFIED="1688926972003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.5_Decorators" />
+    <SUITE FILE_PATH="coverage/homeworks$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1688926955222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.5_Decorators" />
+    <SUITE FILE_PATH="coverage/homeworks$.coverage" NAME=" Coverage Results" MODIFIED="1688927342429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.6_Tests" />
+    <SUITE FILE_PATH="coverage/homeworks$migration.coverage" NAME="migration Coverage Results" MODIFIED="1698058265931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.3_asyncio" />
+    <SUITE FILE_PATH="coverage/homeworks$load_data.coverage" NAME="load_data Coverage Results" MODIFIED="1698060349974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.3_asyncio" />
+    <SUITE FILE_PATH="coverage/homeworks$2.coverage" NAME="2 Coverage Results" MODIFIED="1688737237451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.4_Iter" />
+    <SUITE FILE_PATH="coverage/homeworks$main.coverage" NAME="main Coverage Results" MODIFIED="1698061446604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.4_aiohttp" />
+    <SUITE FILE_PATH="coverage/homeworks$1.coverage" NAME="1 Coverage Results" MODIFIED="1688737104246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.4_Iter" />
   </component>
 </project>

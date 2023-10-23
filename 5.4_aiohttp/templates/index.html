@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advertisements</title>
+</head>
+<body>
+    <h1>Create Advertisement</h1>
+    <form action="/advertisement" method="POST">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title"><br><br>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description"></textarea><br><br>
+
+        <label for="owner">Owner:</label>
+        <input type="text" id="owner" name="owner"><br><br>
+
+        <input type="submit" value ="Create">
+    </form>
+    <br>
+    <h1>Advertisement Details</h1>
+    <form action="/advertisement/{id}" method = "GET">
+      Enter Advertisement ID:
+      <input type = "number" min=1, step=1, name='id'></input>
+      &nbsp;
+      <button type = 'submit'>Get Details</button>
+    </form>
+    <br>
+    <h1>Delete Advertisement</h1>
+    <form action="/advertisement/{id}" method = "DELETE">
+          Enter Advertisement ID to Delete:
+ments_table+9 inclusive as shown above. The upper limit of this range may be increased if more than one new rows are added at once to advertisements table simultaneously through some means other than this HTML form.-->
+          <input type = "number", min=1, step=1, required = true, name='id'>
+          </input>
+
+          &nbsp;
+
+        <button type = 'submit'>Delete</button>
+      </form>
+</body>
+</html>
